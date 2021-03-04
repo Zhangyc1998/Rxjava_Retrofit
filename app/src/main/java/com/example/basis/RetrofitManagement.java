@@ -90,7 +90,7 @@ public class RetrofitManagement {
                                              throw new AccountInvalidException();
                                          }
                                          default: {
-                                             throw new ResultInvalidException(result.getMsg(), result.getCode());
+                                             throw new ResultInvalidException();
                                          }
                                      }
                                  });
